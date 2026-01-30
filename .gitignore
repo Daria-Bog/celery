@@ -1,0 +1,29 @@
+# Python (временные файлы компиляции)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальное окружение (никогда не пушим в гит!)
+venv/
+env/
+.env
+
+# Тесты и отчеты
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Изображения (результаты тестов)
+# Мы игнорируем результат, так как он создается при каждом тесте
+result.png
+lama_600px.png
+
+# Логи и база данных (если появится)
+*.log
+
+# Docker
+.dockerignore
+
+# Специфично для macOS и Windows
+.DS_Store
+Thumbs.db

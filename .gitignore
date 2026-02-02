@@ -1,3 +1,7 @@
+# IDE (настройки PyCharm)
+.idea/
+.vscode/
+
 # Python (временные файлы компиляции)
 __pycache__/
 *.py[cod]
